@@ -3,6 +3,9 @@
 #![cfg_attr(not(feature = "std"), no_std)]
 
 #[macro_use]
+extern crate tracing;
+
+#[macro_use]
 #[cfg(not(feature = "std"))]
 extern crate alloc as std;
 

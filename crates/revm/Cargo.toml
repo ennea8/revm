@@ -53,6 +53,9 @@ alloy-provider = { version = "0.2", workspace = true, optional = true, default-f
 alloy-eips = { version = "0.2", workspace = true, optional = true, default-features = false }
 alloy-transport = { version = "0.2", workspace = true, optional = true, default-features = false }
 
+#log
+tracing.workspace = true
+
 [dev-dependencies]
 alloy-sol-types = { version = "0.7.7", default-features = false, features = [
     "std",
